@@ -1,3 +1,4 @@
+#Exercicio de IMC
 nome = 'Vic'
 peso = 95
 altura = 1.80
