@@ -1,4 +1,6 @@
-a = float(input())
-b = float(input())
-m = ((a + b)/2)
-print("MEDIA=%0.4f" %m)
+#Exercicio 1005 beecrowd
+
+nota1 = float(input())
+nota2 = float(input())
+media = (((nota1 * 3.5) + (nota2 * 7.5)) /11)
+print('MEDIA={:.5f}'.format(media))
