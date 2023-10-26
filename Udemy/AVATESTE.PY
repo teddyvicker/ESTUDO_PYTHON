@@ -35,10 +35,31 @@
 #print( 
 #    f'{minha_lista_filtrada}')
 
-x = 1 / 2 + 3 // 3 + 4 ** 2
-print(x)
-def foo(n):
-    if n > 1:
-        return n* foo (n-1)
-    return n
-print(foo(4))
+#x = 1 / 2 + 3 // 3 + 4 ** 2
+#print(x)
+#def foo(n):
+#   if n > 1:
+#        return n* foo (n-1)
+#   return n
+#print(foo(4))
+
+#lista = ["cachorro","hamster",["pato", "galinha","porco"],"gato"]
+#print(lista[3][2])
+
+#def fc(x,y):
+#    s=0
+#    a= x.lower()
+#    for i in a:
+#        if (i==y):
+#            s=s + 1
+#            return s
+#a = 'Aracaju/Sergipe'
+#x = fc(a,'a')*100
+#y= fc(a,'e')*10
+#z = fc(a,'i')
+#print(x+y+z)
+
+a, b = 0, 2
+while b < 20:
+    a, b = b, a+b+1
+    print(b)
