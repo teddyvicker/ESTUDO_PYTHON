@@ -38,7 +38,7 @@ def main():
     """Função principal do programa."""
     contacts = []
     while True:
-        print("Escolha uma opção:")
+        print("\nEscolha uma opção:")
         print("1. Adicionar contato")
         print("2. Visualizar contatos")
         print("3. Editar contato")
@@ -46,27 +46,27 @@ def main():
         print("5. Visualizar contatos favoritos")
         print("6. Apagar contato")
         print("7. Sair")
-        option = int(input("Digite a opção: "))
+        option = int(input("\nDigite a opção: "))
         if option == 1:
             add_contact(contacts)
-            print("Contato Add com Sucesso!!")
+            print("\nContato Add com Sucesso!!")
         elif option == 2:
             print_contacts(contacts)
         elif option == 3:
-            index = int(input("Digite o índice do contato a ser editado: ")) - 1
+            index = int(input("\nDigite o índice do contato a ser editado: ")) - 1
             edit_contact(contacts, index)
         elif option == 4:
-            index = int(input("Digite o índice do contato a ser marcado/desmarcado como favorito: ")) - 1
+            index = int(input("\nDigite o índice do contato a ser marcado/desmarcado como favorito: ")) - 1
             toggle_favorite(contacts, index)
         elif option == 5:
             print_favorites(contacts)
         elif option == 6:
-            index = int(input("Digite o índice do contato a ser apagado: ")) - 1
+            index = int(input("\nDigite o índice do contato a ser apagado: ")) - 1
             remove_contact(contacts, index)
         elif option == 7:
             break
         else:
-            print("Opção inválida. Tente novamente.")
+            print("\nOpção inválida. Tente novamente.")
 
 if __name__ == "__main__":
     main()
