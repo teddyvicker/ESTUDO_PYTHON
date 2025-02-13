@@ -13,6 +13,7 @@ pessoa1 = Pessoa("Vic", 28)
 print("Nome", pessoa1.nome)
 print("Idade", pessoa1.idade)
 mensagem = pessoa1.saudacao()
+print(mensagem)
 
 pessoa2 = Pessoa("Danny", idade = 31)
 mensagem = pessoa2.saudacao()
