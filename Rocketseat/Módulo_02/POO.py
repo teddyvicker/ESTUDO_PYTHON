@@ -9,12 +9,12 @@ class Pessoa:
         return f"Olá, meu nom é {self.nome} e eu tenho {self.idade} anos."
 #Objetos
 
-pessoa1 = Pessoa("Vic", 28)
+pessoa1 = Pessoa("Vic", 29)
 print("Nome", pessoa1.nome)
 print("Idade", pessoa1.idade)
 mensagem = pessoa1.saudacao()
 print(mensagem)
 
-pessoa2 = Pessoa("Danny", idade = 31)
+pessoa2 = Pessoa("Danny", idade = 32)
 mensagem = pessoa2.saudacao()
 print(mensagem)
